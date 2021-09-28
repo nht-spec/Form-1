@@ -1,0 +1,91 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.name {
+  top: 38px;
+  position: absolute;
+  border: 1px solid #ccc !important;
+  border-radius: 5px;
+  width: 332px;
+  height: 57px;
+  left: 0;
+}
+
+.notes {
+  position: absolute;
+  border: 1px solid #ccc !important;
+  border-radius: 5px;
+  width: 700px;
+  height: 187px;
+  left: 0;
+  top: 243px;
+}
+.email {
+  left: unset;
+  right: 0;
+}
+.email-lable {
+  width: 332px;
+  height: 57px;
+  padding-left: 10px;
+}
+.contact {
+  top: 140px;
+}
+.gender {
+  left: 370px;
+}
+
+.lable2 {
+  position: absolute;
+  top: 0;
+  right: 215px;
+}
+.lable3 {
+  top: 103px;
+  right: unset;
+  left: 0;
+}
+.lable4 {
+  top: 102px;
+  right: 269px;
+}
+.label5 {
+  position: absolute;
+  left: 0;
+  top: 204px;
+}
+
+.edit-mode {
+  margin-top: 70px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 700px;
+  position: relative;
+  .info-mode-list {
+    position: absolute;
+    width: 100%;
+    .name-mode {
+      display: flex;
+      justify-content: space-between;
+      padding-top: 32px;
+      padding-left: 10px;
+    }
+    .info-mode {
+      display: flex;
+      justify-content: space-between;
+      padding-top: 46px;
+      padding-left: 10px;
+    }
+    .notes-mode {
+      width: 672px;
+      padding: 50px 14px 0 14px;
+    }
+  }
+  .btn-switch-mode {
+    position: absolute;
+    top: 438px;
+  }
+}
